@@ -5,3 +5,7 @@
   align-items: center;
   padding: 5px;
   color: #2895A0; }
+
+.side-bar .p-tree {
+  width: 260px;
+  border: unset; }
