@@ -1,0 +1,10 @@
+.side-bar {
+    &__upload-container{
+        border : 2px dashed #565656;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        padding: 5px;
+        color : #2895A0;
+     }
+}

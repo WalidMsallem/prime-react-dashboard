@@ -1,0 +1,12 @@
+.tabs-container {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #2895A0;
+  margin: 0 5px; }
+  .tabs-container__header {
+    background-color: #2895A0;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    color: white; }

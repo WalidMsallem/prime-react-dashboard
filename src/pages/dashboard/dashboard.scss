@@ -1,0 +1,49 @@
+.dashboard{
+    display: flex;
+    flex-direction: column;
+    width: 99%;
+    margin-left : 5px ;
+    height: 90vh;
+    &__header {
+         height : 30px;
+         margin: 10px 0 15px 25px;
+         font-size: 25px;
+         color :gray;
+    }
+    &__content {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 25px;
+  height: 100%;
+        &__widget_container{
+            width: 15%;
+            display: flex;
+            flex-direction: column;
+            justify-content: start;
+              align-items: center;
+        }
+        &__tabs-container {
+            width: 83%;
+            height: 100%;
+  .p-tabview-panels{
+     border-left : unset !important;
+     border-right : unset !important;
+     border-bottom : unset !important;
+  }
+            &__top-content {
+              height: 48%;
+              width: 100%;
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 15px;
+              &__block {
+                  width: 48%;
+              }
+              
+            }
+            &__bottom-content {
+                height: 48%;
+            }
+        }
+    }
+}
