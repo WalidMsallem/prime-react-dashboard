@@ -1,14 +1,16 @@
 .widget {
-  width: 180px;
-  height: 95px;
+  width: 90px;
+  height: 40px;
   border: 1px solid #D0D0D0;
-  margin: 5px 0;
+  margin: 5px 10px;
   display: flex;
   justify-content: center;
   align-items: center; }
-  .widget img {
-    width: 4em;
-    margin-right: 7px; }
-  .widget span {
-    font-size: 35px;
-    color: gray; }
+
+.widget img {
+  width: 1.2em;
+  margin-right: 7px; }
+
+.widget span {
+  font-size: 1em;
+  color: gray; }

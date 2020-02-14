@@ -65,9 +65,9 @@ const Dashboard = () => {
     ]
     return (
         <div className="dashboard">
-         <div className="dashboard__header"> Tableau de board</div>  
-         <div className="dashboard__content">
-             <div className="dashboard__content__widget_container">
+         <div className="dashboard__header">
+             <span className="dashboard__header__title"> Tableau de board</span>
+              <div className="dashboard__header__widget_container">
                   <Widget
                    count = {0} 
                   icon = {iconDocuments}
@@ -84,8 +84,10 @@ const Dashboard = () => {
                      count = {0} 
                      icon = {iconNotification}
                   />
-              
              </div>
+              </div>  
+         <div className="dashboard__content">
+
              <div className="dashboard__content__tabs-container">
                  <div className='dashboard__content__tabs-container__top-content'>
                      <div className ="dashboard__content__tabs-container__top-content__block">
